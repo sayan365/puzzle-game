@@ -1,4 +1,4 @@
-/* ==== Global Reset & Base Styles ==== */
+
 body {
   font-family: 'Segoe UI', sans-serif;
   background: #F5F5F5;
@@ -251,8 +251,8 @@ header {
 .hint-image {
   display: none;
   position: absolute;
-  width: 400px; /* Adjust size as needed */
-  top: 50px; /* Position below the button */
+  width: 400px; 
+  top: 50px; 
   left: 50%;
   transform: translateX(-50%);
   border-radius: 6px;
@@ -265,9 +265,9 @@ header {
   display: block;
 }
 
-/* Ensure hint button blends with other game buttons */
+
 #hintBtn {
-  background: #2196f3; /* Blue to distinguish from other buttons */
+  background: #2196f3; 
   color: white;
   border: none;
   border-radius: 5px;
@@ -277,7 +277,7 @@ header {
 }
 
 #hintBtn:hover {
-  background: #1976d2; /* Darker blue on hover */
+  background: #1976d2; 
 }
 /* ==== Responsive ==== */
 @media (max-width: 600px) {

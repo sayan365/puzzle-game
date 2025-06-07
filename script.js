@@ -1,4 +1,4 @@
-// Updated JavaScript with redesigned layout and conditional visibility logic
+
 const puzzleContainer = document.getElementById('puzzleContainer');
 const startBtn = document.getElementById('startBtn');
 const moveCountSpan = document.getElementById('moveCount');
@@ -216,7 +216,7 @@ function renderGameButtons() {
   backButton.textContent = '⬅️ Back to Menu';
   backButton.onclick = resetToMenu;
 
-  // Create hint button dynamically (optional, since it's in HTML)
+  
   const hintButton = document.createElement('button');
   hintButton.id = 'hintBtn';
   hintButton.className = 'button';
