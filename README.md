@@ -1,6 +1,7 @@
 # 🧩 Dynamic Image Puzzle Game 🎮
 
 Welcome to the **Image Puzzle Game**! This engaging, browser-based sliding puzzle lets you piece together custom or sample images with a drag-and-drop or tap-to-swap interface. Whether you're on desktop or mobile, choose your difficulty, upload an image, and challenge yourself to solve the puzzle with the fewest moves and fastest time! 🚀
+**[Play Now!](https://sayan365.github.io/puzzle-game)** 🎉
 
 ## ✨ Features That Shine
 
@@ -52,6 +53,9 @@ Welcome to the **Image Puzzle Game**! This engaging, browser-based sliding puzzl
 2. Ensure `index.html`, `style.css`, and `script.js` are in the same folder.
 3. Open `index.html` in your browser to start playing.
 4. (Optional) Host the files on a web server (e.g., GitHub Pages, Netlify) for online access.
+
+### Live Demo
+Try the game instantly at: [https://sayan365.github.io/puzzle-game](https://sayan365.github.io/puzzle-game/) 🌐
 
 ### Sample Images
 - Replace the sample image URLs in `index.html` with your own or ensure the provided images are in the project directory.
