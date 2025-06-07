@@ -1,6 +1,7 @@
 # 🧩 Dynamic Image Puzzle Game 🎮
 
 Welcome to the **Image Puzzle Game**! This engaging, browser-based sliding puzzle lets you piece together custom or sample images with a drag-and-drop or tap-to-swap interface. Whether you're on desktop or mobile, choose your difficulty, upload an image, and challenge yourself to solve the puzzle with the fewest moves and fastest time! 🚀
+
 **[Play Now!](https://sayan365.github.io/puzzle-game)** 🎉
 
 ## ✨ Features That Shine
