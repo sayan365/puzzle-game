@@ -91,7 +91,7 @@ We’d love your input! To contribute:
 4. Push to the branch (`git push origin feature/awesome-idea`).
 5. Open a Pull Request.
 
-Please follow the [Code of Conduct](CODE_OF_CONDUCT.md) and report issues via [GitHub Issues](https://github.com/your-username/image-puzzle-game/issues).
+Please follow the [Code of Conduct](CODE_OF_CONDUCT.md) and report issues via [GitHub Issues](https://github.com/sayan365/puzzle-game/issues).
 
 ## 📜 License
 
