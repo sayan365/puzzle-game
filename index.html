@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Puzzle Game</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Sortable.js (for drag/drop) -->
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+</head>
+<body>
+  <header>
+    <h1 class="title">Dynamic Image Puzzle Game</h1>
+    <p class="subtitle">Drag on desktop or tap on mobile to solve the puzzle!</p>
+  </header>
+
+  <!-- CONTROL SECTION -->
+  <section class="controls-section">
+    <div class="controls">
+      <h2 class="section-title">🧩 Create Your Puzzle</h2>
+      <input type="file" id="imageUpload" accept="image/*" />
+      <select id="difficulty">
+        <option value="3">Easy (3×3)</option>
+        <option value="4">Medium (4×4)</option>
+        <option value="5">Hard (5×5)</option>
+      </select>
+      <button id="startBtn" class="hidden">🎮 Start Puzzle</button>
+    </div>
+  </section>
+
+  <!-- SAMPLES SECTION -->
+  <section class="samples-section">
+    <h2 class="section-title">✨ Or Try These Samples</h2>
+    <div class="sample-images">
+      <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" class="sample-img" />
+      <img src="https://images.unsplash.com/photo-1745990652119-f13cced69b7c?q=80" class="sample-img" />
+      <img src="https://images.unsplash.com/photo-1746311432520-745a303b10bf?q=80" class="sample-img" />
+      <img src="https://images.unsplash.com/photo-1745933323139-558ed699835d?q=80" class="sample-img" />
+    </div>
+  </section>
+
+  <!-- GAME SECTION (HIDDEN AT FIRST) -->
+  <section id="gameSection" class="hidden">
+    <div class="status">
+      <span id="moveCount">🧮 Moves: 0</span>
+      <span id="timer">⏱️ Time: 0s</span>
+    </div>
+    <div id="puzzleContainer" class="puzzle-container"></div>
+    <!-- Buttons under puzzle (injected by JS) -->
+    <div id="gameButtonsContainer"></div>
+    <button id="hintBtn" class="button hidden">ℹ️ Hint</button>
+    <img id="hintImage" class="hint-image" alt="Hint Image">
+  </section>
+
+  <!-- SUCCESS MODAL -->
+  <div id="successMessage" class="hidden">
+    <div class="modal-content">
+      <img id="completedImage" src="" alt="Completed Puzzle" />
+      <h2>🎉 Puzzle Solved!</h2>
+      <p>You completed the puzzle in <span id="finalMoves">0</span> moves</p>
+      <p>Time taken: <span id="finalTime">0</span> seconds</p>
+      <button id="restartBtn">Play Again</button>
+    </div>
+  </div>
+
+  <audio id="successSound" src="sounds/success.mp3"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
